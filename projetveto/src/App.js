@@ -1,18 +1,15 @@
-import {Route, Routes} from 'react-router-dom';
-import Connexion from './Auth/connexion';
-import Inscription from './Auth/inscription';
-
+import {Route, Routes} from 'react-router-dom'
+import Home from './pages/Home'
+import Inscription from './pages/inscription';
 
 
 function App() {
   return (
     <>
-      <header className="App-header">
         <Routes>
-          <Route path="/" element={<Connexion />} />
+          <Route path="/" element={<Home />} />
           <Route path="/inscription" element={<Inscription />} />
         </Routes>
-      </header>
     </>
   );
 }

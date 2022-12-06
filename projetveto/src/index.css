@@ -1,1 +1,14 @@
-/*https://www.youtube.com/watch?v=boZJtNzRCDQ&t=946s*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    text-align: center;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
