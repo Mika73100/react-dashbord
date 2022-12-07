@@ -8,11 +8,15 @@ export default function Inscription() {
             <form>
 
                 <div>
-                    <input className="form-control" type="text" placeholder='nom' required/><br/>
-                    <input className="form-control" type="text" placeholder='prenom' required/><br/>
-                    <input className="form-control" type="tel" placeholder='telephone' required/><br/>
-                    <input className="form-control" type="email" placeholder='email' required/><br/>
-                    <input className="form-control" type="password" placeholder='password' required/>
+                    <input className="form-control" type="text" placeholder='nom' name='nom' id='nom'required/><br/>
+                    <input className="form-control" type="text" placeholder='prenom' name='prenom' id='prenom' required/><br/>
+                    <input className="form-control" type="tel" placeholder='telephone' name='tel' id='tel' required/><br/>
+                    <input className="form-control" type="email" placeholder='email' name='email' id="signUpEmail" required/><br/>
+                    <input className="form-control" type="password" placeholder='password' name='pwd' id="signUpPwd" required/><br/>
+                    <input className="form-control" type="password" placeholder='confirmation password' name='confpwd' id="confpwd" required/>
+
+                    <input  name="email" type="email" placeholder='email' id="signUpEmail" required/>
+                    <input  name="pwd" type="password" placeholder='password' id="signUpPwd" required/>
                 </div><br />
 
                 <button className='btn btn-primary ms-2'><Link to="/">Connexion</Link></button>&nbsp;

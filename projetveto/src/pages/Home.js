@@ -7,10 +7,10 @@ const Home = () => {
 
             <form action="" method="post">
                 <div>
-                    <input className="form-control" type="email" placeholder='email' id="signUpEmail" required/>
+                    <input className="form-control" name="email" type="email" placeholder='email' id="signUpEmail" required/>
                 </div><br/>
                 <div>
-                    <input className="form-control" type="password" placeholder='password' id="password" required/>
+                    <input className="form-control" name="pwd" type="password" placeholder='password' id="signUpPwd" required/>
                 </div><br />
 
                 <button className='btn btn-primary ms-2' type="submit">Connexion</button>&nbsp;
