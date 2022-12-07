@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const Home = () => {
     return (
-        <div className='container p-5'><h1 className='display-2 text-light'>Connexion</h1>
+        <div className='container p-5'><h1 className='display-3 text-light'>Connexion</h1>
 
             <form action="" method="post">
                 <div>

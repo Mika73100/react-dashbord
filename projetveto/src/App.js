@@ -1,6 +1,6 @@
 import {Route, Routes} from 'react-router-dom'
 import Home from './pages/Home'
-import Inscription from './pages/inscription';
+import Inscription from './pages/Inscription';
 
 
 function App() {
@@ -8,7 +8,7 @@ function App() {
     <>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/inscription" element={<Inscription />} />
+          <Route path="/Inscription" element={<Inscription />} />
         </Routes>
     </>
   );
