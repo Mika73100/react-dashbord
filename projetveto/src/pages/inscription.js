@@ -15,8 +15,7 @@ export default function Inscription() {
                     <input className="form-control" type="password" placeholder='password' name='pwd' id="signUpPwd" required/><br/>
                     <input className="form-control" type="password" placeholder='confirmation password' name='confpwd' id="confpwd" required/>
 
-                    <input  name="email" type="email" placeholder='email' id="signUpEmail" required/>
-                    <input  name="pwd" type="password" placeholder='password' id="signUpPwd" required/>
+                    <p className='text-danger mt-1'></p>
                 </div><br />
 
                 <button className='btn btn-primary ms-2'><Link to="/">Connexion</Link></button>&nbsp;
